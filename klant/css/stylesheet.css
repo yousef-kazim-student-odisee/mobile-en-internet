@@ -6,59 +6,139 @@
 body {
     width: 100%;
     background-color: #fff;
-    
+
 }
 
 header {
     width: 100%;
     height: 550px;
-    background-image:url(/img/headerframe.jpg);
-    background-position:right;
+    background-image: url(/img/headerframe.jpg);
+    background-position: right;
     background-repeat: no-repeat;
     background-color: #161616;
 }
 
 nav ul li {
-  display: inline-block;
-      text-align: center;
+    display: inline-block;
+    text-align: center;
 }
 
 nav ul li a {
-  padding: 18px;
-  text-transform:uppercase;
-  color: rgba(255, 255, 255, 1);
-  font-size: 1.3em;
-  text-decoration: none;
-  display: block;
-  
+    padding: 18px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.3em;
+    text-decoration: none;
+    display: block;
+
 }
 
 nav ul li a:hover {
-  background: rgba(255, 255, 255, 1);
-  color: rgba(0, 0, 0, 1);
+    background: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, 1);
 }
 
-main{
+main {
     width: 90%;
     margin: 0 5% 0 5%;
 }
 
-article{
+h2{
+    margin-bottom: 5%;
+}
+#about{
     width: 100%;
-    margin-top: 10%
-}
-article p {
-    width: 40%;
-    text-align: left;
-    margin-left:50%;
-    clear: left;
-}
-.gallaryMain {
-    width: 250px;
-    height: 250px;
-
-}
-
-.workpic p{
+    height: 500px;
+    margin-top: 5%;
+        margin-left: 3%;
     
 }
+.aboutMe{
+    font-size: 1.8em;
+    width: 40%;
+    float: right;
+    margin:5% 30% 0 0
+}
+
+#work{
+    margin-top: 15%;
+    margin-left: 3%;
+    width: 90%
+        
+}
+.gallaryMain{
+    width: 225px;
+    height: 225px;
+    margin: 3% 2% 2% 0;
+}
+
+#contact{
+    width: 60%;
+        margin-left: 3%;
+   
+}
+
+#contact ul li {
+    width: 40%;
+    font-size: 1.5em;
+    list-style-type: none;
+    margin-left: 10%;
+    margin-top: 5%;
+    
+}
+
+/* social medida */
+
+#social{
+    width: 60%;
+    margin-top: 5%;
+
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 7% 8%;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.1;
+}
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+/*****************  Works page ***********/
+
+#works{
+    width: 90%;
+    
+}
+
+
+#works h2{
+    margin-top: 10%;
+    
+}
+.works{
+    margin-top: 4%;
+    font-size: 1.3em;
+    width: 49%;
+    margin-bottom: 10%;
+}
+
+/*****************  Media Querys  ***********/

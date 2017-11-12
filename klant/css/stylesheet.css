@@ -12,10 +12,13 @@ body {
 header {
     width: 100%;
     height: 550px;
-    background-image: url(/img/headerframe.jpg);
+   background-image: url(../img/headerframe.jpg);
     background-position: right;
     background-repeat: no-repeat;
     background-color: #161616;
+}
+nav{
+	background-color: #161616;
 }
 
 nav ul li {
@@ -54,10 +57,12 @@ h2{
     
 }
 .aboutMe{
-    font-size: 1.8em;
-    width: 40%;
-    float: right;
-    margin:5% 30% 0 0
+	font-size: 1.4em;
+	width: 33%;
+	float: right;
+	margin-top: 2%;
+	margin-bottom: 0;
+	margin-right: 23%;
 }
 
 #work{
@@ -140,5 +145,144 @@ h2{
     width: 49%;
     margin-bottom: 10%;
 }
+#screentosmall{
+		display: none;
+	}
 
 /*****************  Media Querys  ***********/
+
+
+
+@media (max-width:1200px) and (min-width:950px){
+	
+	header{
+		display: none;
+	}
+	#nadiaabout{
+		width: 350px;
+		height: 400px;
+	}
+	.aboutMe{
+		font-size: 1.1em;
+		margin-right: 25%;
+	}
+	#social{
+    width: 80%;
+    margin-top: 5%;
+
+}
+	#screentosmall{
+		display: none;
+	}
+}
+
+
+@media (max-width:949px) and (min-width:516px){
+	header{
+		display: none;
+	}
+	nav ul li {
+    display: inline-block;
+    text-align: center;
+	width: 100%;
+}
+	nav ul li a {
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.3em;
+    text-decoration: none;
+    display: block;
+
+}
+	
+	#nadiaabout{
+		width: 70%;
+		height: 90%;
+		margin-left: 11%;
+		clear: none;
+	}
+	.aboutMe{
+		font-size: 1.1em;
+		width: 70%;
+		float: none;
+		margin: 8% 0 0 11%;
+		clear: none;
+		
+	}
+	
+	h2{
+		text-align: center;
+		margin-right: 5%;
+	}
+	#work{
+		width: 100%;
+		margin: 90% 14% 0 14%;
+		clear: none;
+		float: none;
+		
+		
+	}
+	#work h2{
+		width: 40%;
+			text-align: center;
+		margin-right: 29%;
+	}
+	#contact{
+    width: 90%;
+        margin-left: 14%;
+   
+}
+
+#contact ul li {
+    width: 58%;
+    font-size: 1.2em;
+    list-style-type: none;
+	text-align: center;
+
+    
+}
+	#contact h2{
+		width: 40%;
+		margin-top: 5%;
+		margin-left: 18%;
+	}
+		#social{
+    width: 80%;
+    margin-top: 5%;
+
+}
+	#screentosmall{
+		display: none;
+	}
+	.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 7% 6%;
+  border-radius: 50%;
+}
+}
+
+@media (max-width:516px){
+	header{
+		display: none;
+	
+	}
+	nav{
+		display: none;
+	}
+	main{
+		display: none;
+	}
+	#screentosmall{
+		display: block;
+	
+	}
+	#screentosmall p {
+		font-size: 1.6em;
+		margin: 10% 15% 0 25%;
+	
+	}
+}

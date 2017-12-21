@@ -380,7 +380,7 @@ fieldset {
 }
 }
 
-@media (max-width:350px){
+@media (max-width:516px){
 	header{
 		display: none;
 	
@@ -400,108 +400,4 @@ fieldset {
 		margin: 10% 15% 0 25%;
 	
 	}
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width:515px) and (min-width:351px){
-	header{
-		display: none;
-	}
-	nav ul li {
-    display: inline-block;
-    text-align: center;
-	width: 100%;
-}
-	nav ul li a {
-    text-transform: uppercase;
-    color: rgba(255, 255, 255, 1);
-    font-size: 1.3em;
-    text-decoration: none;
-    display: block;
-
-}
-
-#workpage{
-	width: 57%;
-	margin: 15% 5% 5% 5%;
-}
-
-	#workspage img {
-		display: none;
-	}
-	
-	#nadiaabout{
-		width: 70%;
-		height: 90%;
-		margin-left: 11%;
-		clear: none;
-	}
-	.aboutMe{
-		font-size: 1.1em;
-		width: 70%;
-		float: none;
-		margin: 8% 0 0 11%;
-		clear: none;
-		
-	}
-	
-	h2{
-		text-align: center;
-		margin-right: 5%;
-	}
-	#work{
-		width: 100%;
-		margin: 90% 14% 0 14%;
-		clear: none;
-		float: none;
-		
-		
-	}
-	#work h2{
-		width: 40%;
-			text-align: center;
-		margin-right: 29%;
-	}
-	#contact1{
-    width: 90%;
-        margin-left: 14%;
-   
-}
-
-
-	#contact1 h2{
-		width: 40%;
-		margin-top: 5%;
-		margin-left: 18%;
-	}
-		#social{
-    width: 80%;
-    margin-top: 5%;
-
-}
-	#screentosmall{
-		display: none;
-	}
-	.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  margin: 7% 6%;
-  border-radius: 50%;
-}
 }
